@@ -38,8 +38,7 @@ steps:
   workingDirectory: '$(modulePath)'
   displayName: 'Get dependencies, then build'
 
-steps:
-  - script: |
+- script: |
       npm install
     displayName: 'npm install'
   - script: |
